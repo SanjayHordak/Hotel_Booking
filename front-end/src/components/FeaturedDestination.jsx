@@ -1,7 +1,7 @@
 import React from "react";
 import Hotelcard from "./Hotelcard";
 import Title from "./Title";
-import { useAppContext } from "../context/appcontext";
+import { useAppContext } from "../context/AppContext";
 
 
 export default function FeaturedDestination(){

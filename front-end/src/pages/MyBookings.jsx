@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Title from '../components/Title'
 import {assets, userBookingsDummyData} from '../assets/assets'
-import { useAppContext } from "../context/appcontext";
+import { useAppContext } from "../context/AppContext";
 import toast from "react-hot-toast";
 
 export default function MyBookings(){

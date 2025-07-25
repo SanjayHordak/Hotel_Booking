@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { assets, cities } from "../assets/assets";
-import { useAppContext } from "../context/appcontext";
+import { useAppContext } from "../context/AppContext";
 
 
 export default function Header(){
