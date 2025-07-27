@@ -14,7 +14,7 @@ const Loader = () => {
                 navigate(`/${nextUrl}`)
             },8000)
         }
-    },[nextUrl])
+    }, [nextUrl, navigate])
 
     return(
         <div className='flex items-center justify-center h-screen'>
