@@ -33,7 +33,7 @@ const {showHotelReg}=useAppContext();
        <Route path="/room/:id"  element={<RoomDetails/>}  />
        <Route path="/my-bookings"  element={<MyBookings/>}  />
 
-       <Route path="/loader/:nextUrl"  element={<Loader/>}  />
+       <Route path='/loader/:nextUrl' element={<Loader/>}/>
 
       <Route path="/owner" element={<Layout/>}>
           <Route index element={<Dashboard/>}/>

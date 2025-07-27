@@ -17,7 +17,7 @@ const app=express()
 app.use(cors()) //enable cross-orgin Resource Sharing
 
 //Api to listen to Stripe Webhooks
-app.post('api/stripe',express.raw({type:"application/json"}),stripeWebhooks)
+app.post('/api/stripe', express.raw({type: 'application/json'}), stripeWebhooks);
 
 //middleware
 app.use(express.json())
