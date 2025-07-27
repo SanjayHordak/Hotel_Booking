@@ -15,6 +15,7 @@ import ListRoom from "./pages/hotelOwner/ListRoom";
 import {Toaster} from 'react-hot-toast'
 import { useAppContext } from "./context/AppContext";
 import Loader from "./components/Loader";
+import Testimonial from "./components/Testimonial";
 
 
 
@@ -31,6 +32,7 @@ const {showHotelReg}=useAppContext();
     <div className='min-h-[70vh]'>
       <Routes>
        <Route path="/"  element={<Home/>}  />
+       <Route path="/exp"  element={<Testimonial/>}  />       
        <Route path="/rooms"  element={<Allrooms/>}  />
        <Route path="/room/:id"  element={<RoomDetails/>}  />
        <Route path="/my-bookings"  element={<MyBookings/>}  />
